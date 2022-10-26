@@ -1,0 +1,57 @@
+* {
+      padding: 0;
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+}
+
+body{
+      overflow: hidden;
+}
+.navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+}
+
+.navbar::before{
+      height: 187%
+}
+
+#logo1 {
+      height: 69px;
+      width: 75px;
+      border-radius: 50%;
+      display: block;
+      margin: auto;
+      border: 2px solid white;
+      /* margin-left: 15px;
+      margin-top: 15px; */
+      padding: 6px;
+}
+
+.container {
+      display: flex;
+      position: absolute;
+      left: 113px;
+      top: 61px;
+}
+
+
+
+.baa {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+
+.sponsers {
+      overflow: hidden;
+}
+
+.out1{
+      display: flex;
+      flex-wrap: wrap;
+}

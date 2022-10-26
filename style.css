@@ -1,0 +1,314 @@
+* {
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+}
+
+
+
+
+/* Navigation Bar */
+
+.logo img {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      margin-left: 1rem;
+}
+
+.logo img:hover {
+      cursor: pointer;
+      height: 90px;
+      width: 90px;
+      transition: 0.5s;
+      box-shadow: 0 3px 3px 5px rgba(0, 0, 0, 0.301);
+}
+
+.navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(87, 87, 247);
+      padding: 2rem 1.5rem;
+      position: fixed;
+      top: 0px;
+      width: 100%;
+}
+
+.links {
+      display: flex;
+      align-items: center;
+      color: rgb(218, 218, 218);
+      list-style-type: none;
+      text-decoration: none;
+}
+
+.link_item {
+      font-size: 1.8rem;
+      margin: 0 1.5rem;
+}
+
+.link_item:hover {
+      text-decoration: underline;
+      color: white;
+      font-weight: bold;
+      transition: 0.5s;
+      border: 4px solid white;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      padding: 0.4rem;
+      box-shadow: 0 3px 3px 5px rgba(0, 0, 0, 0.301);
+}
+
+.link_item_button {
+      color: white;
+      border: none;
+      background-color: rgb(87, 87, 247);
+      font-size: 1.5rem;
+      margin: 0 1rem;
+}
+
+.link_item_button:hover {
+      color: white;
+      font-weight: bold;
+      transition: 0.5s;
+      border: 4px solid white;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      padding: 0.4rem;
+      box-shadow: 0 3px 3px 5px rgba(0, 0, 0, 0.301);
+}
+
+
+
+
+/* Website Introduction */
+
+.body {
+      background: url('images/back1.jpg');
+      padding-top: 2.8rem;
+}
+
+.company_intro {
+      padding: 5rem 0;
+}
+
+.body h1 {
+      padding: 2rem;
+      text-align: center;
+      font-size: 4rem;
+      color: white;
+      text-decoration: underline;
+      text-shadow: 0 3px 5px black;
+      max-width: 1400px;
+      margin: 0 auto;
+}
+
+.body p {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding: 2rem 0;
+      width: 70%;
+      margin: 0 auto;
+      color: rgb(36, 93, 95);
+      text-shadow: 0 1px 1px black;
+}
+
+.section_button {
+      display: block;
+      margin: 0 auto;
+      width: 10%;
+      padding: 0.5rem 0;
+      background: none;
+      font-size: 1.8rem;
+      text-shadow: 0 1px 1px black;
+      font-weight: 600;
+      border: 1px solid white;
+      border-radius: 10px;
+      box-shadow: 0 3px 3px 5px rgba(0, 0, 0, 0.301);
+}
+
+.section_button:hover {
+      color: black;
+      background-color: white;
+}
+
+
+
+
+/* Description section */
+
+.our_visions {
+      display: flex;
+      text-align: center;
+      justify-content: space-evenly;
+      background: linear-gradient(to bottom, rgb(59, 144, 255), rgb(112, 174, 255));
+      /* opacity: 0.6; */
+}
+
+.vision {
+      border: 2px solid white;
+      /* border-top: 2px solid black; */
+      margin: 2rem;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      color: white;
+}
+
+/* First vision */
+
+.vision h1 {
+      font-size: 2.5rem;
+      /* color: white; */
+      font-weight: bold;
+      text-shadow: 0 4px 2px rgb(0, 0, 0);
+      /* text-decoration: underline; */
+}
+
+.vision p {
+      font-size: 1.5rem;
+      font-weight: bold;
+}
+
+/* First vision */
+#vision_1 img {
+      width: 63%;
+}
+
+/* Second vision */
+#vision_2 img {
+      width: 80%;
+}
+
+/* Third vision */
+#vision_3 img {
+      width: 64%;
+}
+
+.vision:hover {
+      background-color: white;
+      color: black;
+      padding: 3.5rem;
+      box-shadow: 0 2px 5px 10px rgba(24, 24, 24, 0.4);
+      transition: 0.5s;
+}
+
+
+
+
+/* Sponsers Section */
+
+.sponsers {
+      padding: 0 7.5rem;
+}
+
+.sponsers:before {
+      content: '';
+      background: url('images/back3.jpg') no-repeat;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 29.5rem;
+      z-index: -1;
+      opacity: 0.7;
+}
+
+.sponsers h1 {
+      font-size: 5.5rem;
+      text-shadow: 0 3px 2px black;
+      color: #4b7ceb;
+      text-align: center;
+}
+
+.sponsers_logos {
+      padding: 2rem 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.sponser2 {
+      width: 17%;
+}
+
+.sponser3 {
+      width: 15%;
+}
+
+.sponser4 {
+      width: 16%;
+}
+
+.sponser5 {
+      width: 16%;
+}
+
+.sponser6 {
+      width: 16%;
+}
+
+
+.sponsers_logos .sponser2 img {
+      width: 90%;
+      /* margin: 0 auto; */
+}
+
+.sponsers_logos .sponser2 img:hover {
+      box-shadow: 0 2px 5px 10px rgba(24, 24, 24, 0.4);
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      /* margin: 0 auto; */
+}
+
+.sponsers_logos .sponser3 img {
+      width: 90%;
+      margin: 0 auto;
+}
+
+.sponsers_logos .sponser3 img:hover {
+      box-shadow: 0 2px 5px 10px rgba(24, 24, 24, 0.4);
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      /* margin: 0 auto; */
+}
+
+.sponsers_logos .sponser4 img {
+      width: 96%;
+}
+
+.sponsers_logos .sponser4 img:hover {
+      box-shadow: 0 5px 10px 10px rgba(24, 24, 24, 0.4);
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      /* margin: 0 auto; */
+}
+
+.sponsers_logos .sponser5 img {
+      width: 80%;
+}
+
+.sponsers_logos .sponser5 img:hover {
+      box-shadow: 0 5px 10px 10px rgba(24, 24, 24, 0.4);
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      /* margin: 0 auto; */
+}
+
+.sponsers_logos .sponser6 img {
+      width: 80%;
+      /* filter: invert(1); */
+}
+
+.sponsers_logos .sponser6 img:hover {
+      box-shadow: 0 5px 10px 10px rgba(24, 24, 24, 0.4);
+      transition: 0.5s ease-in-out;
+      cursor: pointer;
+      /* margin: 0 auto; */
+}
+
